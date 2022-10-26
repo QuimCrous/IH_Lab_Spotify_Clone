@@ -11,9 +11,7 @@ White: #FFF
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
 }
-html{
-    width: 100vw;
-}
+
 
 body {
     display: flex;
@@ -22,6 +20,7 @@ body {
     margin: 0;
     width: 100vw;
     overflow-x: hidden;
+    justify-content: center;
 }
 
 .nav-bar {
@@ -82,7 +81,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+    margin-top: 70px;
 
 }
 
@@ -127,7 +127,7 @@ body {
 
 .green-section {
     height: 80vh;
-    width: 100vw;
+    width: 90vw;
     background-color: #00B172;
     display: flex;
     flex-direction: row;
@@ -135,10 +135,15 @@ body {
     justify-content: space-around;
     font-size: 20px;
     color: #FFF;
+    margin-bottom: 50px;
 }
 
 .green-section h2{
     margin-bottom: 0;
+}
+
+.green-div {
+    height: 60vh;
 }
 
 .green-section img {
