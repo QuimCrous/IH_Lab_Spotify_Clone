@@ -1,0 +1,145 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+.nav-bar {
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-bar img {
+    height: 2.5rem;
+    padding: 10px;
+}
+.nav-bar ul{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    width: 100vw;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/landing.jpg);
+    background-position: 0.0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.main h1 {
+    font-size: 60px;
+}
+.main p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-bottom: 40px;
+
+}
+
+.whats h2 {
+    margin-bottom: 0;
+}
+.whats hr {
+    margin-top: 5px;
+    width: 215px;
+    border: 1px solid #00B172;
+}
+
+.whats-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}
+
+.small-box {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+}
+
+.small-box img {
+    width: 200px;
+}
+
+.small-box h4 {
+    color: #00B172;
+}
+
+.small-box p {
+    margin: 0;
+    font-size: 20px;
+    color: #1A1A1A;
+}
+
+.green-section {
+    height: 80vh;
+    width: 100vw;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.green-section h2{
+    margin-bottom: 0;
+}
+
+.green-section img {
+    height: 100px;
+}
+
+.left-img img {
+    height: 60vh;
+}
+
